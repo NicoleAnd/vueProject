@@ -44,12 +44,6 @@ export function getTecPermissions(userId, role) {
     return axios.post(url, data);
 }
 
-// function getBad() {
-//     return axios.post('http://192.168.108.75:9011/user/selectUserTalentByIdUser', params5, {
-//       headers: {'Content-Type': 'application/x-www-form-urlencoded'}
-//     });
-//   }
-
 /**
  * 评价
  * @param {*} userId 
